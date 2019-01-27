@@ -22,6 +22,7 @@ y=0  # generated key for user(B)
 ka=0 # secret key for user(A)
 kb=0 # secret key for user(B)
 
+#The following function will be responsible for checking that the random number generated is in fact prime.
 prime_checker()
 {
 local isPrime=true
@@ -50,6 +51,7 @@ then
 fi
 }
 
+#The following function is responsible for generating a random number which will the be checked by "prime-checker"
 random_prime()
 {
 
@@ -70,6 +72,7 @@ then
         return 0
 fi
 }
+#After a "secure" prime value is obtained we can then start the search for a primitive root.
 
 random_prime
 echo "Obtained Public-key 'p': $prime..."
