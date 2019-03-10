@@ -4,3 +4,4 @@ A collection of cryptography/factoring methods written in code.
 <p>2.<a href="https://github.com/djenkins93/Cryptography/blob/master/rsa-encryption.py">RSA Encryption Scheme</a></p>
 <p>3.<a href="https://github.com/djenkins93/Cryptography/blob/master/pollards_factoring_alg.py">Pollard's Factoring Algotrithm</a></p>
 <p>4.<a href="https://github.com/djenkins93/Cryptography/blob/master/williams_factoring_alg.py">William's Factoring Algorithm</a></p>
+<p>5.<a href="https://github.com/djenkins93/Cryptography/blob/master/vigenre_cipher.py">Vigenre Cipher</a></p>
